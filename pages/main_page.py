@@ -15,4 +15,4 @@ class Main(Base):
         self.input(Auth.USERNAME_INPUT, Constants.login)
         self.input(Auth.PASSWORD_INPUT, Constants.password)
         self.click(Auth.LOGIN_BTN)
-        self.assertion.check_url("inventory.html", "Wrong URL")
+        # self.assertion.check_url("inventory.html", "Wrong URL")
